@@ -1,0 +1,22 @@
+{
+    "name": "RoleSync",
+    "description": "Автоматическая синхронизация ролей пользователей с игровыми привилегиями",
+    "version": "2.0.0",
+    "authors": [
+        {
+            "name": "Flute CMS",
+            "role": "Developer"
+        }
+    ],
+    "providers": [
+        "Flute\\Modules\\RoleSync\\Providers\\RoleSyncProvider"
+    ],
+    "dependencies": {
+        "flute": ">=1.0.0",
+        "php": ">=8.2",
+        "modules": {
+            "GiveCore": ">=2.0.0"
+        }
+    },
+    "installerClass": "Flute\\Modules\\RoleSync\\Installer"
+}
